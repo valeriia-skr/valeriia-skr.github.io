@@ -1,0 +1,293 @@
+html {
+	background-image:url("oboiki6.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+	font-family:Candara light;
+	
+	display:flex;
+	flex-direction:column;	
+}
+.navigation1 {
+    background:#ffb0c9;
+	display:flex;
+	box-shadow: inset 0 -10px 30px #e3e4e6;	
+	margin-top:-8;
+    justify-content:center;
+}
+.navul {
+	list-style:none;
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+}	
+.logogif {
+	width:100;
+	height:50;
+	margin-left:50;
+	padding:5;
+}
+.navul a {
+    text-decoration:none;
+	padding:20.5px 52px;
+	color:#fafafa;
+	transition: all .3s ease;
+}
+.navul a:hover {
+	background:#bfd5ff;
+	box-shadow: inset 0 -10px 30px #f7f7f7;
+}	
+.logo {
+	display:flex;	
+	margin-top:-75;	
+}
+.logogif {
+	width:100;
+	height:50;
+	margin-left:50;
+	padding:5;
+}
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+section {
+	-webkit-animation: fade-in 1s linear; 
+    -moz-animation: fade-in 1s linear; 
+    -o-animation: fade-in 1s linear; 
+    animation: fade-in 1s linear;
+	display:flex;
+	flex-direction:column;
+}
+.parallax {
+	height:400px;
+	background-image:url("palafon2.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+    display:flex;
+	justify-content:center;
+	width:100%;
+
+}
+.parallax h1 {
+	display:flex;
+	align-items:center;
+	font-size:35;
+	color:#fafafa;
+}
+.heading {
+	display:flex;
+    justify-content:center;
+	padding:100;
+}
+form { 
+    display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+form textarea {
+	box-shadow: inset 0 -10px 30px #ffb0c9;
+	border:2px inset #ffb0c9;
+	caret-color:#eb7c9f;
+	width:700px;
+	height:300px;
+	font-size:30;
+	line-height:30px;
+	font-family:Candara light;
+	color:#3d3d3d; 
+	padding-left:30px;
+	padding-top:25px;
+}
+form input {
+	border:2px inset #ffc7d9;
+	box-shadow:inset 0 0 10px #ffb0c9;
+	caret-color:#eb7c9f;
+	width:200px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	color:#3d3d3d;
+	font-family:Candara light;
+	
+	
+}
+form label {
+	font-size:35px;
+	color:#3d3d3d;
+}
+textarea:focus, input:focus{
+outline: none;
+}
+.lahetanapp {
+	border:2px outset #ffc7d9;
+	background:rgba(222, 104, 157,0.7);
+	font-size:20px;
+	color:#fafafa;
+	width:150px;
+	height:50px;
+	box-shadow: inset 0 -10px 30px #e3e4e6;
+	transition: all .3s ease;
+}
+.lahetanapp:hover {
+	background:rgba(191, 213, 255, 0.7);
+	box-shadow: inset 0 -10px 30px #f7f7f7;
+	border:2px outset #f7f7f7;
+}
+footer {
+    background:rgba(222, 104, 157,0.7);
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding-top:5px;
+	margin-top:50px;
+}
+.some {
+	display:flex;
+	flex-direction:column;
+	flex-basis:20%;
+	margin-left:300;
+}
+.picpodpis {
+	display:flex;
+	justify-content:center;
+	color:#fcec03;
+}
+.foot-some-pic {
+	display:flex;
+	align-items:center;
+	flex-direction:raw;
+	justify-content:center;
+}
+.instpic, .twitterpic, .facebookpic {
+	padding:5;
+	width:30px;
+	height:30px;
+	display:flex;
+}
+.foot-lin {
+	padding:5;
+	
+	display:flex;
+	flex-basis:30%;
+	flex-direction:column;
+	align-items:center;
+}
+.foot-lin a {
+	text-decoration:none;
+	padding:5;
+	color:#fcec03;
+	transition: all .2s ease;
+}
+.foot-lin a:hover { 
+    color:white;
+}
+.foot-copy {
+	display:flex;
+	color:white;
+	flex-basis:30%;
+}
+.lomake {
+	display:flex;
+	justify-content:center;
+	align-self:center;
+	width:900px;
+	height:800px;
+	margin-top:30px;
+	position:relative;
+}
+.a {
+	position:absolute;
+	width:0;
+	height:0;
+	border:4px dotted transparent;
+	transition:.3s;
+}
+.a1{top:0;left:0;border-bottom:none;border-right:0;}
+.a2{top:0;right:0;border-bottom:none;border-left:0;}
+.a3{bottom:0;right:0;border-top:none;border-left:none;}
+.a4{bottom:0;left:0;border-top:none;border-right:none;}
+.lomake:hover .a{
+	width:40px;
+	height:40px;
+	border-color:#fff7e8;
+}
+@media screen and (max-width: 900px) {
+.logogif {
+	width:100;
+	height:50;
+}
+.navul a {
+	padding:20 9;
+	transition:none;
+}
+.navigation1 {
+	justify-content:center;
+	font-size:17px;
+}
+.a {
+	display:none;
+}
+.foot-lin a {
+	transition:none;
+}
+.some {
+	display:flex;
+	flex-direction:column;
+	flex-basis:30%;
+	margin-left:50px;
+}
+.foot-lin {
+	padding:5;
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.lomake { 
+	border:2px dotted #fff7e8;
+	width:90%;
+}
+.lomake textarea {
+	width:90%;
+}
+}
+@media screen and (max-width:600px) {
+.navigation1 {
+	display:block;
+}
+.navul {
+	flex-direction:column;
+	font-size:40px;
+}
+.navul li {
+	width:100%;
+	text-align:center;
+}
+.navul a {
+	display:block;
+	margin-left:-40px;
+	padding:30px;
+	box-shadow: inset 0 -10px 30px #f7f7f7;
+}
+.logok {
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+.logogif {
+	margin-left:60px;
+	width:400px;
+	height:auto;
+}
+.parallax {
+	background-attachment: scroll;
+}
+.lahetanapp {
+	width:90%;
+	height:10%;
+	transition:none;
+}
